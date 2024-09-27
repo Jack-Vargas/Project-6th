@@ -10,8 +10,9 @@ public class TestinEnum : MonoBehaviour
                                                    // 12 by saying south = 12 and i believe this will also bump west up to 13
     void Start()
     {
-        var facing : cardinalDirection = cardinalDirections.north // now i you want to apply a value from the options in the enum you use facing
+        var facing = cardinalDirections.north // now i you want to apply a value from the options in the enum you use facing
                                                                   // var is just a variable that automaticlay changs to the needed type
+                                                                  //if you want to see a proper use check wizard mode "spell ready"
         
     }
 }
