@@ -11,5 +11,7 @@ public class TestinEnum : MonoBehaviour
     void Start()
     {
         Direction facing = Direction.north; // heres an example of allpying a direction
+                                            // to my understanding you need to change the enum into this "direction facing thing for it to work or something
+        
     }
 }
